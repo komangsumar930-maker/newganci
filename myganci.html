@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gantungan Kunci Resin — Ganci Brown</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f7ff;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Arial Black', sans-serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            color: #1e40af;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.45rem;
+            color: #166534;
+            margin-bottom: 1.2rem;
+            border-bottom: 3px solid #bfdbfe;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+
+        .teks-penting {
+            color: #dc2626;
+            font-weight: bold;
+        }
+
+        .teks-sedang {
+            font-size: 1.05rem;
+            color: #374151;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            text-align: center;
+            padding: 2.2rem 1.2rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: #166534;
+            padding: 0.9rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 99;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 0.6rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            color: #bfdbfe;
+        }
+
+        section {
+            padding: 1.8rem 1.2rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .kartu {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.1);
+            border-left: 5px solid #22c55e;
+        }
+
+        .produk-gambar {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #bfdbfe, #dcfce7);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1e40af;
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+        }
+
+        ul {
+            padding-left: 1.6rem;
+            margin: 1rem 0;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+            font-size: 1rem;
+        }
+
+        .harga {
+            font-size: 1.4rem;
+            color: #dc2626;
+            font-weight: bold;
+            margin: 0.6rem 0 1rem;
+        }
+
+        .tombol {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            padding: 0.9rem;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+            margin: 0.6rem 0;
+            transition: 0.3s;
+        }
+
+        .tombol-wa {
+            background: #25d366;
+            color: white;
+        }
+
+        .tombol-wa:hover {
+            background: #1da851;
+        }
+
+        .tombol-shopee {
+            background: #ee4d2d;
+            color: white;
+        }
+
+        .tombol-shopee:hover {
+            background: #d64023;
+        }
+
+        form label {
+            display: block;
+            margin-top: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #1e40af;
+            font-size: 1rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.9rem;
+            border: 2px solid #93c5fd;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: Arial, sans-serif;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #22c55e;
+        }
+
+        button {
+            background: #1e40af;
+            color: white;
+            border: none;
+            padding: 0.9rem 2rem;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #166534;
+        }
+
+        footer {
+            background: #1e40af;
+            color: white;
+            text-align: center;
+            padding: 1.8rem;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .penutup {
+            text-align: center;
+            font-style: italic;
+            color: #475569;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ Ganci Brown</h1>
+        <p>Gantungan Kunci Resin — Unik, Cantik & Eksklusif</p>
+    </header>
+
+    <nav>
+        <a href="#produk">Produk</a>
+        <a href="#tentang-resin">Tentang Resin</a>
+        <a href="#beli">Cara Beli</a>
+        <a href="#saran">Kritik & Saran</a>
+    </nav>
+
+    <section id="produk">
+        <h2>📿 Produk Kami</h2>
+        <div class="kartu">
+            <div class="produk-gambar">🖼️ Foto Produk di Sini</div>
+            
+            <h3>Gantungan Kunci Resin — Buatan Tangan</h3>
+            <p class="teks-sedang">Setiap barang dibuat dengan teliti dan penuh ketelitian. Karena dikerjakan dengan tangan, <span class="teks-penting">tidak ada dua barang yang persis sama</span> — milikmu benar-benar satu-satunya di dunia!</p>
+            
+            <p class="harga">💰 Rp 25.000 — Rp 50.000 / pcs</p>
+            
+            <h4 style="color: #166534; margin-top: 1rem;">✨ Kelebihan Produk Kami:</h4>
+            <ul>
+                <li>✅ Terbuat dari <span class="teks-penting">resin epoksi berkualitas tinggi</span>, bening dan mengkilap</li>
+                <li>✅ Tahan lama, tidak mudah pecah atau kusam</li>
+                <li>✅ Bisa <span class="teks-penting">dipesan sesuai desain impianmu</span></li>
+                <li>✅ Aman digunakan dan tidak berbahaya bagi kulit</li>
+                <li>✅ Cocok untuk hadiah spesial maupun koleksi pribadi</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tentang-resin">
+        <h2>🔍 Apa Itu Resin?</h2>
+        <div class="kartu">
+            <p class="teks-sedang"><strong>Resin</strong> adalah bahan yang awalnya berbentuk cair bening, lalu mengalami proses pengerasan hingga menjadi padat dan kuat — tampilannya seperti kaca namun lebih ringan dan tahan benturan.</p>
+            <br>
+            <p>Kami hanya menggunakan <span class="teks-penting">resin epoksi kualitas terbaik</span> yang aman, tidak berbau menyengat, dan hasilnya jernih seperti air murni.</p>
+            <br>
+            <p>Proses pembuatannya membutuhkan kesabaran. Setelah dituang ke cetakan, dibiarkan mengering secara alami selama 24–48 jam hingga benar-benar padat dan siap dipakai.</p>
+            <p class="penutup">🌿 Dibuat dengan hati, untuk hasil yang memuaskan</p>
+        </div>
+    </section>
+
+    <section id="beli">
+        <h2>🛒 Cara Pemesanan</h2>
+        <div class="kartu">
+            <p class="teks-sedang">Mau pesan? Gampang banget! Pilih cara yang paling nyaman buat kamu ya~ 😊</p>
+            
+            <a href="#" class="tombol tombol-shopee">🛍️ Pesan Lewat Shopee</a>
+            <a href="https://wa.me/6281234567890" target="_blank" class="tombol tombol-wa">💬 Hubungi via WhatsApp</a>
+            
+            <p style="margin: 1.2rem 0 0.5rem;"><strong>Langkah mudah memesan:</strong></p>
+            <ul>
+                <li>📲 Pilih cara pemesanan yang kamu mau</li>
+                <li>📸 Kirim foto atau deskripsi desain yang kamu inginkan</li>
+                <li>💵 Lakukan pembayaran sesuai instruksi</li>
+                <li>📦 Kami buat dengan teliti lalu kirim secepatnya!</li>
+            </ul>
+            
+            <p style="margin-top: 1rem; padding: 0.8rem; background: #f0fdf4; border-radius: 8px; text-align: center; color: #166534; font-weight: bold;">
+                🎁 Beli 3 pcs lebih hemat! Tanyakan promo terbaru kami~
+            </p>
+        </div>
+    </section>
+
+    <section id="saran">
+        <h2>💬 Kritik & Saran</h2>
+        <div class="kartu">
+            <p class="teks-sedang">Pendapat kamu sangat berharga buat kami. Silakan sampaikan apa yang kamu rasakan, saran untuk perbaikan, atau sekadar pesan semangat ya~ 😊</p>
+            
+            <form>
+                <label for="nama">Nama Kamu:</label>
+                <input type="text" id="nama" placeholder="Tulis namamu di sini...">
+
+                <label for="pesan">Pesan, Kritik, atau Saran:</label>
+                <textarea id="pesan" rows="5" placeholder="Tulis pesanmu di sini... Semua masukan sangat kami hargai!"></textarea>
+
+                <button type="button">Kirim Pesan Sekarang ✅</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Ganci Brown — Semua Hak Dilindungi</p>
+        <p style="margin-top: 0.4rem; font-size: 0.85rem;">Dibuat dengan ❤️ di Kediri, Jawa Timur</p>
+    </footer>
+
+</body>
+</html>
